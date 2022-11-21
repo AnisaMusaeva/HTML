@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Практическое задание 24</title>
+<style>
+ul{
+  text-align: center;
+  margin: 25px;
+}
+li{
+  padding: 8px 16px;
+  margin: 5px;
+  display: inline;
+  border: thin solid gray;
+  border-radius: 50px;
+}
+li:first-of-type{
+  border-radius: 50px 0px 0px 50px;
+}
+li:last-of-type{
+  border-radius: 0px 50px 50px 0px;
+}
+li:first-of-type:hover, li:last-of-type:hover{
+  border-right: thin solid orangered;
+  border-bottom: thin solid orangered;
+  border-top: 0.5px solid orangered;
+  border-left: 0.5px solid orangered;
+}
+li:hover, a:hover{
+  background-color: gray;
+   color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="#">«</a></li><li><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">»</a></li>
+</ul>
+</body>
+</html>

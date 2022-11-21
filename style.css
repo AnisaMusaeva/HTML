@@ -1,0 +1,25 @@
+
+header{
+    height: 150px;
+    background-color: rgb(183, 131, 231);
+    padding: none;
+    margin: none;
+}
+h1{
+    padding: 40px;
+    font-size: 50px;
+    margin: 0px;
+    font-style: italic;
+    color: rgb(250, 248, 248);
+    
+}
+nav ul{
+    margin: 0px;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0;
+    border: 1px solid;
+}
